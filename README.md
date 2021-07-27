@@ -5,7 +5,7 @@ Given an integer x, return true if x is palindrome integer.
 An integer is a palindrome when it reads the same backward as forward. For example, 121 is palindrome while 123 is not.
 
 # Solution Code:
-
+```
 let num = 121;
 function checkPalindrome(num) {
     let tempNo = num;
@@ -25,7 +25,7 @@ function checkPalindrome(num) {
 
 if (checkPalindrome(num)) console.log(num + " is a palindrome integer")
 else console.log(num + " is not a palindrome integer")
-
+```
 
 # Task 2
 You are given an array prices where prices[i] is the price of a given stock on the ith day.
@@ -33,6 +33,7 @@ Find the maximum profit you can achieve. You may complete as many transactions a
 Note: You may not engage in multiple transactions simultaneously (i.e., you must sell the stock before you buy again).
 
 # Solution Code:
+```
 let price = [1, 2, 3, 1, 15, 6, 7]
 
 function findMaxProfit() {
@@ -85,3 +86,4 @@ function findMaxProfit() {
 }
 
 findMaxProfit()
+```
